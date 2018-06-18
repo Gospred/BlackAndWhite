@@ -1,0 +1,328 @@
+@font-face {
+    font-family: 'BirchStd';
+    font-weight: normal;
+    font-style: normal;
+
+    src: local('Birch Std'),
+    local('BirchStd'),
+    url('../fonts/BirchStd.eot'),
+    url('../fonts/BirchStd.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/BirchStd.woff') format('woff'),
+    url('../fonts/Birch-Std_7090.ttf') format('truetype');
+}
+
+html {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+} 
+
+a {
+  color: #eeeeee;
+  text-decoration: none; 
+}
+  
+
+body {
+  
+  box-sizing: border-box;
+  margin: 0 auto;
+  height: 100vh;
+  max-width: 1280px;
+  min-width: 320px;
+  width: 100%;
+  background-color: #ffff;
+  background-image: url("../images/background.jpg");
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+  font-size: 13px;
+  font-family: Arial, Verdana, sans-serif;
+  line-height: 1.5;
+  opacity: 1;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+  color: #cccccc;
+}
+
+
+.main-header {
+    width: 100%;
+
+    color: #fff;
+    background-color: #000;
+}
+
+.main-header > .full-width-container {
+    width: 100%;
+
+    color: #fff;
+    background-color: #1d1d1d;
+    
+}
+
+.main-header .header__top-line {
+    display: -moz-flex;
+    display:  -ms-flex;
+    display:   -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+        display: flex;
+
+    max-width: 1000px;
+    min-height: 60px;
+    margin: 0 auto;
+
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+}
+
+
+.header__top-line .header__main-logo {
+    min-width: 160px;
+    line-height: 40%;
+}
+
+.header__main-logo {
+  padding: 20px 0 0 40px;
+}
+
+.header__top-line h1 {
+    font-family: 'BirchStd';
+    font-size: 36px;
+    font-weight: 100;
+    line-height: 20%;
+    color: #fff;
+}
+
+.user-search-form {
+    width: 35%;
+}
+
+.btn-search {
+  position: right;
+}
+
+.header__top-line .top-line__search-form {
+    display: -moz-flex;
+    display:  -ms-flex;
+    display:   -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.top-line__search-form > input[type='search'] {
+    width: 80%;
+    padding-left: 5px;
+
+    color: #fff;
+    border: 1px solid #4c4c4c;
+    background-color: #323232;
+}
+
+.top-line__search-form > .btn {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.42;
+
+    display: -moz-flex;
+    display:  -ms-flex;
+    display:   -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    margin-left: 11px;
+
+
+    color: #fff;
+    border: 1px solid #4c4c4c;
+    background-color: #000;
+
+    -ms-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+}
+
+
+.clearfix {
+  clear: both; }
+
+.container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.header {
+  min-height: 100px;
+  border-radius: 0 0 7px 7px;
+  background: rgba(0, 0, 0, 0.5); }
+
+.header-backgroundimg {
+  width: 100%;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.header__background > h3 {
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 1.16;
+
+    min-height: 57px;
+    margin: 0;
+    padding: 18px 0 16px 20px;
+
+    color: #dedede;
+}
+
+
+
+.header-menu {
+  display: table;
+  width: 100%;
+  border-radius: 0 0 7px 7px;
+  background: rgba(0, 0, 0, 0.2); }
+  .header-menu__list {
+    display: table;
+    padding: 0;
+    list-style: none; }
+    .header-menu__list--active {
+      display: table !important;
+      clear: both; }
+    .header-menu__list-item {
+      float: left; }
+      .header-menu__list-item:last-child a {
+        margin-right: 4px; }
+      .header-menu__list-item a {
+        margin: 0 0 0 4px;
+        padding: 10px 15px;
+        border-radius: 4px; }
+        .header-menu__list-item a:hover {
+          background: rgba(0, 0, 0, 0.3);
+          color: #e12727; }
+      .header-menu__list-item--active a {
+        background: rgba(0, 0, 0, 0.2);
+        color: #bb1a1a; }
+
+
+.main-content__body-row {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 25px; }
+
+
+.images-group {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 20px;
+  justify-content: space-around;
+ }
+
+.shapeimg {
+  padding: 20px;
+  border: 20px;
+  border-color: grey;
+}
+
+.footer {
+  margin: 10px 0 20px; 
+}
+
+  .footer h3 {
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #333333; 
+  }
+  
+
+@media only screen and (max-width: 1340px) {
+  body {
+    padding: 0 20px; 
+  } 
+  }
+
+@media only screen and (max-width: 1200px) {
+  .container.body-section {
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap; 
+  }
+
+  .main {
+    box-sizing: border-box;
+    padding-right: 0;
+    width: calc(100% - 250px); 
+  }
+ 
+
+@media only screen and (max-width: 768px) {
+  .header-menu__list {
+    display: none;
+    width: 100%; }
+  .header-menu li {
+    float: none; }
+  .header-menu a {
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    text-align: center; }
+  .header-menu__item.active a {
+    background: rgba(255, 255, 255, 0.1); }
+  .header-menu__btn {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  
+
+@media only screen and (max-width: 640px) {
+  .header-logo__image {
+    display: none; }
+  .main {
+    margin: 20px 0 0;
+    padding: 0; }
+  .main-content__body-row {
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    padding-bottom: 0; }
+  .main-item {
+    margin: 0 0 20px;
+    width: 100%; }
+    .main-item img {
+      width: 100%; }
+ 
+  .footer {
+    margin: 0 0 20px; 
+  }
+    
